@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 1px solid gold;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+/*.navbar-brand {
+    
+}
+*/
+.navbar-brand img {
+    width: 150px;
+    transition: 5s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(2);
+}
+
+.navbar-link {
+
+    height: 30px;
+}
+
+.links:hover {
+    color: rgb(235, 235, 50);
+    border-bottom: 3px rgb(233, 233, 41);
+    transform: scale();
+}
+
+.links {
+    border: 2px;
+    margin-right: 20px;
+    font-size: 16px;
+    color: rgb(43, 43, 41);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.active {
+    color: rgb(247, 247, 34);
+    border-bottom: 3px solid;
+}
+
+
+.banner img {
+    width: 100%;
+    height: 70%;
+}
+
+/*Card area stlyes*/
+.card-area {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+    border-radius: 10px;
+}
+
+.card {
+    border: 3px solid rgb(221, 221, 15);
+    max-width: 27%;
+    padding: 60px 10px;
+    border-radius: 10px;
+}
+
+.card h2, .card p {
+    text-align: center;
+}
+
+.card h2 {
+    color: #444;
+}
+
+.card p {
+    color: #777;
+}
+
+/*dialog area*/
+.dialog {
+    background-image: linear-gradient(yellow, green);
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+
+.dialog-img {
+    width: 450px;
+}
+
+.dialog-text {
+    width: 550px;
+} 
+
+.dialog-text h2 {   
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.dialog-text p {
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.dialog-img img {
+    width: 100px;
+}
+
+.footer {
+    border: 2px solid blue;
+    background-color: yellowgreen;
+    text-align: center;
+    background-image: linear-gradient(yellow, green);
+}
+
+.footer-text h2 {
+    text-align: center;
+}
