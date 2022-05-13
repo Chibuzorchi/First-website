@@ -1,0 +1,28 @@
+p{
+    color: blue;
+}
+
+.text{
+    font-size: 50px;
+}
+
+#text{
+    font-size: 10px;
+}
+.section p{
+    color: brown;
+    display: block;
+}
+
+.span{
+    color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+@media(max-width: 600px){
+    color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}

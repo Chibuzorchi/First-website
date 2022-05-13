@@ -88,7 +88,7 @@ nav {
 
 /*dialog area*/
 .dialog {
-    background-image: linear-gradient(yellow, green);
+    background-image: linear-gradient(to top left, yellow, green);
     background-color: yellow;
     display: flex;
     justify-content: space-evenly;
@@ -121,10 +121,11 @@ nav {
 }
 
 .footer {
+    padding: 20px;
     border: 2px solid blue;
     background-color: yellowgreen;
     text-align: center;
-    background-image: linear-gradient(yellow, green);
+    background-image: linear-gradient(to top right, yellow, green);
 }
 
 .footer-text h2 {
